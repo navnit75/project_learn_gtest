@@ -21,6 +21,17 @@ cd ../../googletest/include/
 cp -r gtest /usr/local/include/
 ```
 
+## Test Structure 
+1. Arrange
+    - Test Setup 
+    - Set all input and preconditions 
+2. Act
+    - Call the method under test
+3. Assert
+    - Check that the results are correct 
+
+
+## Appendix
 1. Tree for the cloned file for the reference 
 ```bash
 .
